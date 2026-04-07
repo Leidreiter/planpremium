@@ -1,6 +1,6 @@
 // Base de datos de productos con galería de imágenes
 // Generado automáticamente desde Google Sheets
-// Última actualización: 7/4/2026, 11:33:09
+// Última actualización: 7/4/2026, 12:07:29
 
 const productos = [
     {
@@ -9,9 +9,9 @@ const productos = [
         descripcion: "Corte tradicional con tijera o máquina, adaptado al estilo del cliente.",
         descripcionDetallada: "Corte tradicional con tijera o máquina, adaptado al estilo del cliente y su tipo de cabello, logrando un acabado prolijo, equilibrado y fácil de mantener en el día a día.",
         precio: 10000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1SVClO1iVb6WxjkVvnKUPDu_Hdt7RVu1l",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1SVClO1iVb6WxjkVvnKUPDu_Hdt7RVu1l"
         ],
         categoria: "corte",
         stock: NaN,
@@ -28,9 +28,9 @@ const productos = [
         descripcion: "Corte moderno con transición progresiva en los laterales (low, mid, high fade).",
         descripcionDetallada: "Corte moderno con transición progresiva en los laterales (low, mid, high fade), trabajado con precisión para lograr un degradado limpio, uniforme y perfectamente integrado con la parte superior.",
         precio: 12000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1dc8WcqHMgbJrZ0I-7DnftxkOPJOdW2fV",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1dc8WcqHMgbJrZ0I-7DnftxkOPJOdW2fV"
         ],
         categoria: "corte",
         stock: NaN,
@@ -47,9 +47,9 @@ const productos = [
         descripcion: "Perfilado, recorte y definición de la barba según la forma del rostro.",
         descripcionDetallada: "Perfilado, recorte y definición de la barba según la forma del rostro, respetando proporciones y estilo personal para un resultado prolijo, simétrico y bien marcado.",
         precio: 7000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1jOuQO_IvmsFF8E3G3cxZBoIE39uFxtSh",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1jOuQO_IvmsFF8E3G3cxZBoIE39uFxtSh"
         ],
         categoria: "corte",
         stock: NaN,
@@ -66,9 +66,9 @@ const productos = [
         descripcion: "Rasurado al ras con toalla caliente, espuma y navaja para un acabado profesional.",
         descripcionDetallada: "Rasurado al ras con toalla caliente, espuma y navaja, acompañado de técnicas tradicionales que reducen la irritación y dejan la piel suave, limpia y con un acabado profesional.",
         precio: 8000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1LW81Uq-jK89HOZyFLckfGUx4nXaIbJx-",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1LW81Uq-jK89HOZyFLckfGUx4nXaIbJx-"
         ],
         categoria: "corte",
         stock: NaN,
@@ -85,9 +85,9 @@ const productos = [
         descripcion: "Servicio completo que incluye corte de cabello y arreglo de barba.",
         descripcionDetallada: "Servicio completo que incluye corte de cabello y arreglo de barba, ideal para lograr un look integral, prolijo y alineado entre cabello y barba en una sola sesión.",
         precio: 16000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1Pb6XfOFG98LJ41Hvs_cUYCGpN-6wdJnn",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1Pb6XfOFG98LJ41Hvs_cUYCGpN-6wdJnn"
         ],
         categoria: "otros",
         stock: NaN,
@@ -104,9 +104,9 @@ const productos = [
         descripcion: "Trazos o dibujos personalizados realizados con máquina o navaja.",
         descripcionDetallada: "Trazos o dibujos personalizados realizados con máquina o navaja, adaptados al estilo del cliente para aportar un detalle distintivo, moderno y creativo al corte.",
         precio: 4000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1GJ98pUNwk_jBYXQcKEHe2I9wsWet6GvB",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1GJ98pUNwk_jBYXQcKEHe2I9wsWet6GvB"
         ],
         categoria: "otros",
         stock: NaN,
@@ -123,9 +123,9 @@ const productos = [
         descripcion: "Limpieza del cabello con productos específicos antes o después del corte.",
         descripcionDetallada: "Limpieza del cabello con productos específicos antes o después del corte, eliminando residuos y preparando el cabello para un mejor acabado y mayor duración del peinado.",
         precio: 3000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1vMacYyHGyelijuog6JZqg1Nehk8vAJwm",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1vMacYyHGyelijuog6JZqg1Nehk8vAJwm"
         ],
         categoria: "otros",
         stock: NaN,
@@ -142,9 +142,9 @@ const productos = [
         descripcion: "Hidratación, fortalecimiento o control de caspa/caída con productos especializados.",
         descripcionDetallada: "Hidratación, fortalecimiento o control de caspa/caída con productos especializados, enfocados en mejorar la salud del cuero cabelludo y la apariencia del cabello.",
         precio: 6000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1mrCPBrgGHvWDJl5c6zMjQ7Gor4w1mE7r",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1mrCPBrgGHvWDJl5c6zMjQ7Gor4w1mE7r"
         ],
         categoria: "otros",
         stock: NaN,
