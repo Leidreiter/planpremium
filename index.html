@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online con los mejores productos. Envíos a todo el país.">
+    <meta name="keywords" content="tienda, productos, ecommerce, compras online">
+    <title>Mi Tienda Online - Productos de Calidad</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body data-page="inicio">
+    <!-- Header se cargará dinámicamente -->
+
+    <main>
+
+        <!--<section class="hero">
+            <div class="hero-copy">
+                <div class="cont1200 grid">
+                <h1>Bienvenido a Nuestra Tienda</h1>
+                <p>Descubre productos de calidad al mejor precio</p>
+                </div>
+            </div>
+        </section>--> 
+
+
+        <section class="hero-slider">
+            <div class="slider-track">
+
+                <div class="slider-slide active">
+                    <img src="img/sliders/slider1.jpg" alt="Barbería profesional">
+                    <div class="slider-content">
+                        <div class="slider-text cont1200">
+                            <h1>Bienvenido a la Barbería</h1>
+                            <p>Estilo, precisión y actitud en cada corte</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-slide">
+                    <img src="img/sliders/slider2.jpg" alt="Cortes modernos">
+                    <div class="slider-content">
+                        <div class="slider-text cont1200">
+                            <h1>Cortes Modernos</h1>
+                            <p>Fades, clásicos y tendencias actuales</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-slide">
+                    <img src="img/sliders/slider3.jpg" alt="Barba y perfilado">
+                    <div class="slider-content">
+                        <div class="slider-text cont1200">
+                            <h1>Barba Perfecta</h1>
+                            <p>Perfilado, definición y afeitado profesional</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-slide">
+                    <img src="img/sliders/slider4.jpg" alt="Reservá tu turno">
+                    <div class="slider-content">
+                        <div class="slider-text cont1200">
+                            <h1>Reservá tu Turno</h1>
+                            <p>Atención rápida y sin esperas</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <button class="slider-nav prev" aria-label="Slide anterior">‹</button>
+            <button class="slider-nav next" aria-label="Slide siguiente">›</button>
+            
+        </section>
+
+
+        <div id="tienda"></div>
+
+        <section class="search-section">
+            <div class="search-container">
+                <input type="search" id="searchInput" class="search-input" placeholder="Buscar servicios..."
+                    aria-label="Buscar servicios">
+                <button class="clear-search" id="clearSearch" aria-label="Limpiar búsqueda">✕</button>
+            </div>
+            <p class="search-results" id="searchResults"></p>
+        </section>
+
+        <!-- Resultados de búsqueda (solo visible cuando hay búsqueda activa) -->
+        <section id="productos" class="products-section">
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Los resultados de búsqueda se cargarán aquí -->
+            </div>
+
+            <div class="no-results" id="noResults">
+                <p>No se encontraron servicios que coincidan con tu búsqueda</p>
+                <a href="#" class="shop-btn" onclick="limpiarBusqueda()">Ver todos los servicios</a>
+            </div>
+        </section>
+
+        <!-- Sección de Cuadros -->
+        <section class="category-section" id="cuadros-section">
+            <!-- Aquí puedes agregar tu banner personalizado -->
+            <!-- Ejemplo: <img src="/img/banners/cuadros-banner.jpg" alt="Banner Cuadros" style="width: 100%; border-radius: 12px; margin-bottom: 2rem;"> -->
+
+            <div class="products-grid" id="gridCat1">
+                <!-- Los productos de cuadros se cargarán aquí -->
+            </div>
+        </section>
+
+        <section class="contenedor">
+            <div class="banner">
+                <div class="banner_imagen">
+                    <a href="#">
+                        <img loading="lazy" src="img/banners/banner1.jpg" alt="banner">
+                    </a>
+                </div>
+                <div class="banner_info">
+                    <div class="banner_info_icono">
+                        <img loading="lazy" src="img/icon-banner1.png" alt="ícono personalizado" class="block">
+                    </div>
+                    <div class="banner_info_copy">
+                        <h4>Promociona</h4>
+                        <h2>Con un banner <br>
+                            en tu tienda</h2>
+                        <a href="#">Más info <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Remeras -->
+        <section class="category-section" id="remeras-section">
+            <!-- Aquí puedes agregar tu banner personalizado -->
+            <!-- Ejemplo: <img src="/img/banners/remeras-banner.jpg" alt="Banner Remeras" style="width: 100%; border-radius: 12px; margin-bottom: 2rem;"> -->
+
+
+            <div class="products-grid" id="gridCat2">
+                <!-- Los productos de remeras se cargarán aquí -->
+            </div>
+        </section>
+
+        <section class="contenedor">
+
+            <div class="banners-productos">
+                <div class="banner-productos-contenido">
+                    <div class="banner-promo-info">
+                        <h4>Promociona</h4>
+                        <h2>Productos</h2>
+                        <p class="no-space">Con tus banners.</p>
+                        <a href="#" class="btn">Ver servicio</a>
+                    </div>
+                    <div class="banner-img1">
+                    </div>
+                </div>
+
+                <div class="banner-productos-contenido">
+                    <div class="banner-promo-info">
+                        <h4>Promociona</h4>
+                        <h2>Productos</h2>
+                        <p class="no-space">Con tus banners.</p>
+                        <a href="#" class="btn">Ver servicio</a>
+                    </div>
+                    <div class="banner-img2">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <section class="iconos-pie">
+        <div class="iconos cont1200">
+            <div class="icono">
+                <img loading="lazy" src="img/icono1.png" alt="icono turnos en barbería">
+                <h3>Turnos fáciles y rápidos</h3>
+                <p>Reservá tu turno de forma simple por WhatsApp o redes sociales. Organizamos tu horario para evitar esperas y brindarte una atención puntual.</p>
+            </div>
+            <div class="icono">
+                <img loading="lazy" src="img/icono2.png" alt="icono atención personalizada en barbería">
+                <h3>Atención personalizada</h3>
+                <p>Cada cliente es único. Te asesoramos para encontrar el corte y estilo que mejor se adapte a tu rostro y personalidad.</p>
+            </div>
+            <div class="icono">
+                <img loading="lazy" src="img/icono3.png" alt="icono calidad profesional en barbería">
+                <h3>Calidad profesional</h3>
+                <p>Trabajamos con herramientas y productos de primera calidad para garantizar resultados precisos, duraderos y un acabado impecable.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="contacto" class="contact-section">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? Contáctanos por WhatsApp</p>
+        <a href="https://wa.me/543515957014" class="whatsapp-btn" target="_blank" rel="noopener">
+            Enviar WhatsApp
+        </a>
+    </section> -->
+    <!-- Footer se cargará dinámicamente -->
+
+    <script src="js/template.js"></script>
+    <script src="js/marquee.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/productos.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/busqueda.js"></script>
+    <script src="js/productos-categorias.js"></script>
+    <script src="js/hero-slider.js"></script>
+</body>
+
+</html>
