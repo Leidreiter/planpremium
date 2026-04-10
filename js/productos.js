@@ -1,6 +1,6 @@
 // Base de datos de productos con galería de imágenes
 // Generado automáticamente desde Google Sheets
-// Última actualización: 7/4/2026, 12:07:29
+// Última actualización: 10/4/2026, 01:27:05
 
 const productos = [
     {
@@ -14,7 +14,7 @@ const productos = [
             "https://lh3.googleusercontent.com/d/1SVClO1iVb6WxjkVvnKUPDu_Hdt7RVu1l"
         ],
         categoria: "corte",
-        stock: NaN,
+        stock: 6,
         caracteristicas: [
             "asesoramiento",
             "herramientas profesionales",
@@ -33,7 +33,7 @@ const productos = [
             "https://lh3.googleusercontent.com/d/1dc8WcqHMgbJrZ0I-7DnftxkOPJOdW2fV"
         ],
         categoria: "corte",
-        stock: NaN,
+        stock: 2,
         caracteristicas: [
             "asesoramiento",
             "herramientas profesionales",
@@ -52,7 +52,7 @@ const productos = [
             "https://lh3.googleusercontent.com/d/1jOuQO_IvmsFF8E3G3cxZBoIE39uFxtSh"
         ],
         categoria: "corte",
-        stock: NaN,
+        stock: 6,
         caracteristicas: [
             "asesoramiento",
             "herramientas profesionales",
@@ -71,7 +71,7 @@ const productos = [
             "https://lh3.googleusercontent.com/d/1LW81Uq-jK89HOZyFLckfGUx4nXaIbJx-"
         ],
         categoria: "corte",
-        stock: NaN,
+        stock: 6,
         caracteristicas: [
             "asesoramiento",
             "herramientas profesionales",
@@ -90,7 +90,7 @@ const productos = [
             "https://lh3.googleusercontent.com/d/1Pb6XfOFG98LJ41Hvs_cUYCGpN-6wdJnn"
         ],
         categoria: "otros",
-        stock: NaN,
+        stock: 3,
         caracteristicas: [
             "asesoramiento",
             "herramientas profesionales",
@@ -109,7 +109,7 @@ const productos = [
             "https://lh3.googleusercontent.com/d/1GJ98pUNwk_jBYXQcKEHe2I9wsWet6GvB"
         ],
         categoria: "otros",
-        stock: NaN,
+        stock: 6,
         caracteristicas: [
             "asesoramiento",
             "herramientas profesionales",
@@ -128,7 +128,7 @@ const productos = [
             "https://lh3.googleusercontent.com/d/1vMacYyHGyelijuog6JZqg1Nehk8vAJwm"
         ],
         categoria: "otros",
-        stock: NaN,
+        stock: 2,
         caracteristicas: [
             "asesoramiento",
             "herramientas profesionales",
@@ -147,7 +147,7 @@ const productos = [
             "https://lh3.googleusercontent.com/d/1mrCPBrgGHvWDJl5c6zMjQ7Gor4w1mE7r"
         ],
         categoria: "otros",
-        stock: NaN,
+        stock: 6,
         caracteristicas: [
             "asesoramiento",
             "herramientas profesionales",
