@@ -1,6 +1,6 @@
 // Base de datos de productos con galería de imágenes
 // Generado automáticamente desde Google Sheets
-// Última actualización: 10/4/2026, 01:27:05
+// Última actualización: 15/4/2026, 01:50:15
 
 const productos = [
     {
@@ -153,6 +153,90 @@ const productos = [
             "herramientas profesionales",
             "protocolo de higiene",
             "acabado prolijo"
+        ]
+    },
+    {
+        id: 9,
+        nombre: "Pomada para cabello efecto mate",
+        descripcion: "Fijación fuerte con acabado natural sin brillo.",
+        descripcionDetallada: "Pomada profesional ideal para lograr peinados definidos con un acabado mate y sin sensación grasosa. Se retira fácilmente con agua y no deja residuos, opción cómoda para el uso diario.",
+        precio: 8500,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "productos",
+        stock: 35,
+        caracteristicas: [
+            "Fijación alta",
+            "Acabado mate",
+            "Base acuosa (fácil de lavar)",
+            "No deja residuos",
+            "Apta para todo tipo de cabello",
+            ""
+        ]
+    },
+    {
+        id: 10,
+        nombre: "Aceite para barba premium",
+        descripcion: "Hidratación profunda y aroma masculino duradero.",
+        descripcionDetallada: "Aceite diseñado para nutrir, suavizar y dar brillo a la barba sin dejar sensación aceitosa. Reduce la picazón y la irritación de la piel, ayudando a mantener una barba saludable y prolija. ",
+        precio: 6200,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "productos",
+        stock: 50,
+        caracteristicas: [
+            "Hidratación profunda",
+            "Reduce picazón y caspa",
+            "Aroma amaderado",
+            "Rápida absorción",
+            "Envase con gotero",
+            ""
+        ]
+    },
+    {
+        id: 11,
+        nombre: "Máquina cortadora profesional inalámbrica",
+        descripcion: "Precisión profesional con máxima libertad de movimiento.",
+        descripcionDetallada: "Máquina de corte de alto rendimiento diseñada para uso intensivo en barberías. Cuenta con cuchillas de acero inoxidable de alta precisión, batería de larga duración y funcionamiento silencioso.",
+        precio: 95000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "productos",
+        stock: 12,
+        caracteristicas: [
+            "Inalámbrica",
+            "Autonomía de hasta 120 minutos",
+            "Cuchillas de acero inoxidable",
+            "Incluye peines guía",
+            "Motor silencioso y potente",
+            ""
+        ]
+    },
+    {
+        id: 12,
+        nombre: "Shampoo masculino fortalecedor",
+        descripcion: "Limpieza profunda con efecto fortalecedor.",
+        descripcionDetallada: "Shampoo especialmente formulado para hombres que buscan mantener su cabello limpio, fuerte y saludable. Sensación fresca y revitalizante.",
+        precio: 4900,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "productos",
+        stock: 60,
+        caracteristicas: [
+            "Fortalece el cabello",
+            "Limpieza profunda",
+            "Aroma fresco",
+            "Uso diario",
+            "Apto para todo tipo de cabello",
+            ""
         ]
     }
 ];
