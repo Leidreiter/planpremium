@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     renderizarProductosPorCategoria('corte', 'gridCat1');
     renderizarProductosPorCategoria('otros', 'gridCat2');
+    renderizarProductosPorCategoria('productos', 'gridCat3');
 });
 
 function renderizarProductosPorCategoria(categoria, gridId) {
