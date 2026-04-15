@@ -103,7 +103,7 @@ function renderizarProductosFiltrados(productosFiltrados) {
             </a>
             <div class="product-actions">
                 <button class="add-to-cart-btn" onclick="window.location.href='producto.html?id=${producto.id}'" aria-label="Ver detalles de ${producto.nombre}">
-                    Ver servicio
+                    Más información
                 </button>
                 
                 <button class="add-to-cart-btn" onclick="agregarAlCarrito(${producto.id})" aria-label="Agregar ${producto.nombre} al carrito">

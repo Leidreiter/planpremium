@@ -1994,6 +1994,12 @@ footer p {
     padding: 0 1rem;
 }
 
+.separador-titulo{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+}
+
 .category-header {
     display: flex;
     justify-content: space-between;

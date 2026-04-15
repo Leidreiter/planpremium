@@ -603,7 +603,7 @@ function cargarProductosRelacionados() {
             </a>
             <div class="product-actions">
                 <button class="add-to-cart-btn" onclick="agregarAlCarrito(${producto.id})" aria-label="Agregar ${producto.nombre} al carrito">
-                    Solicitar turno
+                    Solicitar ahora
                 </button>
             </div>
         </article>
