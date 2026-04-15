@@ -1,6 +1,6 @@
 // Base de datos de productos con galería de imágenes
 // Generado automáticamente desde Google Sheets
-// Última actualización: 15/4/2026, 01:50:15
+// Última actualización: 15/4/2026, 02:03:35
 
 const productos = [
     {
@@ -161,9 +161,9 @@ const productos = [
         descripcion: "Fijación fuerte con acabado natural sin brillo.",
         descripcionDetallada: "Pomada profesional ideal para lograr peinados definidos con un acabado mate y sin sensación grasosa. Se retira fácilmente con agua y no deja residuos, opción cómoda para el uso diario.",
         precio: 8500,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1_eFVei1MGS4Z_rRH6MeCEHNAeQlwnwXi",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1_eFVei1MGS4Z_rRH6MeCEHNAeQlwnwXi"
         ],
         categoria: "productos",
         stock: 35,
@@ -182,9 +182,9 @@ const productos = [
         descripcion: "Hidratación profunda y aroma masculino duradero.",
         descripcionDetallada: "Aceite diseñado para nutrir, suavizar y dar brillo a la barba sin dejar sensación aceitosa. Reduce la picazón y la irritación de la piel, ayudando a mantener una barba saludable y prolija. ",
         precio: 6200,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1-2uXqZW6iwxTNGW9T9kMpdnXNbPv84K-",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1-2uXqZW6iwxTNGW9T9kMpdnXNbPv84K-"
         ],
         categoria: "productos",
         stock: 50,
@@ -203,9 +203,9 @@ const productos = [
         descripcion: "Precisión profesional con máxima libertad de movimiento.",
         descripcionDetallada: "Máquina de corte de alto rendimiento diseñada para uso intensivo en barberías. Cuenta con cuchillas de acero inoxidable de alta precisión, batería de larga duración y funcionamiento silencioso.",
         precio: 95000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1zAieoFabJ4w0k0DVDDYlciQN5BIFJBNJ",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1zAieoFabJ4w0k0DVDDYlciQN5BIFJBNJ"
         ],
         categoria: "productos",
         stock: 12,
@@ -224,9 +224,9 @@ const productos = [
         descripcion: "Limpieza profunda con efecto fortalecedor.",
         descripcionDetallada: "Shampoo especialmente formulado para hombres que buscan mantener su cabello limpio, fuerte y saludable. Sensación fresca y revitalizante.",
         precio: 4900,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1dR1-GFkL9Ex3vtzhHkbfplE5DT76U1pm",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1dR1-GFkL9Ex3vtzhHkbfplE5DT76U1pm"
         ],
         categoria: "productos",
         stock: 60,
