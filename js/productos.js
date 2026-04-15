@@ -1,6 +1,6 @@
 // Base de datos de productos con galería de imágenes
 // Generado automáticamente desde Google Sheets
-// Última actualización: 15/4/2026, 02:03:35
+// Última actualización: 15/4/2026, 02:07:14
 
 const productos = [
     {
